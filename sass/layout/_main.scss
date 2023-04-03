@@ -1,0 +1,38 @@
+@use './utilities/mixins';
+@use './utilities/variables';
+#main{
+    @include mixins.hola;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border-bottom: white 2px solid;
+    .introduccion{
+        &-texto{
+            color: variables.$color-letra;
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
+        h2{
+            margin-top: 10px;
+            color: variables.$color-letra;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    .historia{
+        color: variables.$color-letra;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    .jugabilidad{
+        color: variables.$color-letra;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    }
+    .video{
+        color: variables.$color-letra;
+        text-align: center;
+    }

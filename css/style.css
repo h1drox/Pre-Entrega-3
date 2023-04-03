@@ -1,0 +1,335 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  transition: 0.5s;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#header {
+  border-bottom: white 2px solid;
+  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
+}
+#header h1 {
+  font-size: 30px;
+}
+#header .nav div a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#header .nav div a:hover {
+  text-decoration: line-through rgb(255, 0, 0);
+}
+#header .nav {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#header .nav-enlace {
+  display: inline-block;
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 3px 5px 0px rgb(141, 141, 141);
+  padding: 10px 30px;
+  text-decoration: none;
+}
+#header .nav-enlace:hover {
+  background: rgba(133, 133, 133, 0.986);
+  transform: translateY(-1px) scale(1.05);
+  box-shadow: 0 5px 5px 0px black;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  border-bottom: white 2px solid;
+}
+#main .introduccion-texto {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+#main .introduccion h2 {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10px;
+}
+#main .historia {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+#main .jugabilidad {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.video {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#aside {
+  width: 300px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-left: white 2px solid;
+}
+#aside .solcito img {
+  width: 250px;
+}
+#aside a {
+  text-decoration: none;
+}
+#aside a p:hover {
+  color: rgb(255, 0, 0);
+}
+#aside h2 {
+  padding: 20px 0px 0px 0px;
+  color: rgb(255, 255, 255);
+}
+#aside h3 {
+  margin-top: 30px;
+  color: white;
+  background-color: sandybrown;
+  border-radius: 50%;
+}
+#aside h3:hover {
+  background-color: yellow;
+  color: rgb(255, 0, 0);
+}
+#aside p {
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+}
+#aside img {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  width: 300px;
+}
+
+#section .juegos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#section img {
+  width: 400px;
+  padding: 10px 0px 10px 0px;
+}
+#section p {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.titulo-section {
+  height: 45px;
+  text-align: center;
+  background-color: rgb(56, 55, 55);
+}
+.titulo-section h2 {
+  color: white;
+  margin: auto;
+}
+
+.inicio {
+  text-align: center;
+  background-color: rgb(44, 44, 44);
+  padding: 2px;
+}
+.inicio a {
+  text-decoration: none;
+  color: white;
+}
+.inicio a:hover {
+  color: red;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
+}
+footer p {
+  color: white;
+  padding: 0px 0px 20px 0px;
+}
+footer .copyright {
+  color: #f2f2f2;
+  opacity: 0.3;
+  text-align: center;
+}
+footer .logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+footer .redes {
+  display: flex;
+  height: 20px;
+  padding: 20px 0px 40px 0px;
+  align-items: center;
+  justify-content: center;
+}
+footer .redes ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+footer .redes ul li .facebook:hover {
+  background: rgb(13, 116, 201);
+}
+footer .redes ul li .instagram:hover {
+  background: #e6075c;
+}
+footer .redes ul li .twitter:hover {
+  background: rgb(9, 171, 224);
+}
+footer .redes ul li .whatsapp:hover {
+  background: rgb(12, 252, 72);
+}
+footer .redes ul li a {
+  display: block;
+  padding: 0px 10px;
+  background-color: #535252;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px rgb(141, 141, 141);
+  transition: 0.2s;
+}
+footer .redes ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px black;
+  filter: none;
+}
+footer .redes ul:hover a {
+  filter: blur(2px);
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "main1" "aside1" "section1" "section2";
+}
+.grid-container .main1 {
+  grid-area: main1;
+  background-color: blueviolet;
+}
+.grid-container .aside1 {
+  grid-area: aside1;
+  background-color: aqua;
+}
+.grid-container .section1 {
+  grid-area: section1;
+  background-color: brown;
+}
+.grid-container .section2 {
+  grid-area: section2;
+  background-color: blue;
+}
+
+@media (min-width: 500px) {
+  .grid-container {
+    grid-template: "aside1  aside1" 420px "main1  main1" 420px "section1 section1" 420px "section2  section2" 420px/200px auto;
+  }
+}
+@media (max-width: 600px) {
+  .introduccion h2 {
+    margin-top: 20px;
+  }
+  .menu {
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+  }
+  .menu p {
+    display: block;
+    text-decoration: line-through;
+  }
+  .menu img {
+    height: 80px;
+  }
+  .menu ul {
+    padding: 5px;
+  }
+  .video iframe {
+    height: 250px;
+    width: 400px;
+  }
+  .redes {
+    flex-direction: column;
+  }
+  .redes a {
+    padding: 10px;
+  }
+  .spam {
+    display: none;
+  }
+  .introduccion h1 {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  nav {
+    background: black;
+    flex-direction: column;
+  }
+  .nav-enlace {
+    margin: 10px 0px;
+  }
+}
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template: "main1  main1 aside1 " 860px "main1  main1 aside1" auto "section1 section1 section1" 370px "section2  section2 section2" 370px/200px auto 300px;
+  }
+}
+@media (max-width: 960px) {
+  .titulo-section {
+    padding: 0px 0px 0px 0px;
+  }
+  #aside {
+    display: none;
+  }
+}
+@media (max-width: 1220px) {
+  #section .juegos {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

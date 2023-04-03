@@ -1,0 +1,36 @@
+@use './utilities/mixins';
+#section{
+    .juegos{
+        @include mixins.hola;
+        }
+        img{
+            width: 400px;
+            padding: 10px 0px 10px 0px;
+        }
+        p{
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+        }
+    }
+    .titulo-section {
+        height: 45px;
+        text-align: center;
+        background-color: rgb(56, 55, 55);
+        h2{
+            color: white;
+            margin: auto;
+        }
+    }
+.inicio{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    padding: 2px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: red;
+    }
+}

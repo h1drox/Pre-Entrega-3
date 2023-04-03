@@ -1,0 +1,78 @@
+@media (min-width: 500px) {
+    .grid-container {
+    grid-template:
+        "aside1  aside1" 420px
+        "main1  main1" 420px
+        "section1 section1"   420px
+        "section2  section2" 420px /
+        200px    auto;
+    }
+}
+@media (max-width: 600px) {
+    .introduccion h2{
+        margin-top: 20px;
+    } 
+    .menu{
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+    }
+    .menu p{
+        display: block;
+        text-decoration: line-through;
+    }
+    .menu img{
+        height: 80px;
+    }
+    .menu ul{
+        padding: 5px;
+    }
+    .video iframe{
+        height: 250px;
+        width: 400px;
+    }
+    .redes{
+        flex-direction: column;
+    }
+    .redes a{
+        padding: 10px;
+    }
+    .spam{
+        display: none;
+    }
+    .introduccion h1{
+        display: none;
+    }
+}
+@media (max-width: 850px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+}
+@media (min-width: 900px) {
+    .grid-container {
+    grid-template:
+        "main1  main1 aside1 "  860px
+        "main1  main1 aside1" auto
+        "section1 section1 section1" 370px
+        "section2  section2 section2"  370px /
+        200px    auto   300px;
+    }
+}
+@media (max-width: 960px){
+    .titulo-section{
+        padding: 0px 0px 0px 0px;
+    }
+    #aside{
+        display: none;
+    }
+}
+@media (max-width: 1220px){
+    #section .juegos{
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,30 @@
+    .grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "main1"
+    "aside1" 
+    "section1"
+    "section2";
+    .main1 {
+        grid-area: main1;
+        background-color: blueviolet;
+    }
+    .aside1{
+        grid-area: aside1;
+        background-color: aqua;
+    }
+    .section1{
+        grid-area: section1;
+        background-color: brown;
+    }
+    .section2{
+        grid-area: section2;
+        background-color: blue;
+    }
+}

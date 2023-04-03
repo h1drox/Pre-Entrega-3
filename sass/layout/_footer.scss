@@ -1,0 +1,70 @@
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    p{
+        color: white;
+        padding: 0px 0px 20px 0px;
+    }
+    .copyright{
+        color: #f2f2f2;
+        opacity: 0.3;
+        text-align: center;
+    }
+    .logo{
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+    .redes {
+        display: flex;
+        height: 20px;
+        padding: 20px 0px 40px 0px;
+        align-items: center;
+        justify-content: center;
+        ul li{
+            display: inline-block;
+            margin: 0px 10px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            .facebook:hover{
+                background: rgb(13, 116, 201);
+            }
+            .instagram:hover{
+                background: #e6075c;
+            }
+            .twitter:hover{
+                background: rgb(9, 171, 224);
+            }
+            .whatsapp:hover{
+                background: rgb(12, 252, 72);
+            }
+            a{
+                display: block;
+                padding: 0px 10px;
+                background-color: #535252;
+                color: white;
+                line-height: 50px;
+                font-size: 18px;
+                box-shadow: 0 3px 5px 0px rgb(141, 141, 141);
+                transition: 0.2s;
+            }
+            a:hover{
+                transform: translateY(-3px) scale(1.05);
+                box-shadow: 0 5px 5px 0px black;
+                filter: none;
+            }
+        }
+        ul:hover a{
+            filter: blur(2px);
+        }
+    }
+}

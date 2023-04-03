@@ -1,0 +1,41 @@
+@use './utilities/variables';
+#aside{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-left: white 2px solid;
+    .solcito img{
+        width: 250px;
+    }
+    a{
+        text-decoration: none;
+        p:hover{
+            color: variables.$color-letra3;
+        }
+    }
+    h2{
+        padding: 20px 0px 0px 0px;
+        color: variables.$color-letra;
+    }
+    h3{
+        margin-top: 30px;
+        color: white;;
+        background-color: sandybrown;
+        border-radius: 50%;
+    }
+    h3:hover{
+        background-color: yellow;
+        color: variables.$color-letra3;
+    }
+    p{
+        color: variables.$color-letra;
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    img{
+        color: variables.$color-letra;
+        margin-top: 10px;
+        width: 300px;
+    }
+}
