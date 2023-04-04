@@ -1,5 +1,5 @@
-@use './utilities/mixins';
-@use './utilities/variables';
+@use 'mixins';
+@use 'variables';
 #main{
     @include mixins.hola;
     margin: auto;

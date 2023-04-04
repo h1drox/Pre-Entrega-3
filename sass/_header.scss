@@ -1,6 +1,5 @@
-@use './utilities/mixins';
-@use './utilities/variables';
-
+@use 'mixins';
+@use 'variables';
 #header {
     border-bottom: white 2px solid;
     font-family: 'Playfair Display', serif;
