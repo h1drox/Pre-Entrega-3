@@ -21,7 +21,7 @@ body {
   font-size: 30px;
 }
 #header .nav div a {
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
 }
 #header .nav div a:hover {
@@ -37,7 +37,7 @@ body {
 #header .nav-enlace {
   display: inline-block;
   background-color: rgb(36, 36, 36);
-  color: rgb(255, 255, 255);
+  color: white;
   box-shadow: 0 3px 5px 0px rgb(141, 141, 141);
   padding: 10px 30px;
   text-decoration: none;
@@ -57,32 +57,32 @@ body {
   border-bottom: white 2px solid;
 }
 #main .introduccion-texto {
-  color: rgb(255, 255, 255);
+  color: white;
   width: 70%;
   margin: auto;
   text-align: center;
 }
 #main .introduccion h2 {
   margin-top: 10px;
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
   padding-top: 10px;
 }
 #main .historia {
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
   margin: auto;
   width: 50%;
 }
 #main .jugabilidad {
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
   margin: auto;
   width: 50%;
 }
 
 .video {
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 #aside h2 {
   padding: 20px 0px 0px 0px;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 #aside h3 {
   margin-top: 30px;
@@ -116,13 +116,13 @@ body {
   color: red;
 }
 #aside p {
-  color: rgb(255, 255, 255);
+  color: white;
   width: 90%;
   margin: auto;
   margin-top: 15px;
 }
 #aside img {
-  color: rgb(255, 255, 255);
+  color: white;
   margin-top: 10px;
   width: 300px;
 }

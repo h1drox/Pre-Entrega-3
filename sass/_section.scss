@@ -19,7 +19,7 @@
         text-align: center;
         background-color: rgb(56, 55, 55);
         h2{
-            color: white;
+            color: variables.$color-letra;
             margin: auto;
         }
     }
@@ -29,9 +29,9 @@
     padding: 2px;
     a{
         text-decoration: none;
-        color: white;
+        color: variables.$color-letra;
     }
-    &:hover{
+    a:hover{
         color: red;
     }
 }
