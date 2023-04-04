@@ -17,16 +17,16 @@
     .menu{
         flex-direction: column;
         background-color: rgb(0, 0, 0);
-    }
-    .menu p{
-        display: block;
-        text-decoration: line-through;
-    }
-    .menu img{
-        height: 80px;
-    }
-    .menu ul{
-        padding: 5px;
+        p{
+            display: block;
+            text-decoration: line-through;
+        }
+        img{
+            height: 80px;
+        }
+        ul{
+            padding: 5px;
+        }
     }
     .video iframe{
         height: 250px;
@@ -34,9 +34,9 @@
     }
     .redes{
         flex-direction: column;
-    }
-    .redes a{
-        padding: 10px;
+        a{
+            padding: 10px;
+        }
     }
     .spam{
         display: none;
